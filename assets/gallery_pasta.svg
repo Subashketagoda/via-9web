@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#f8f8f8"/>
+  <circle cx="200" cy="150" r="100" fill="#fff" stroke="#eee" stroke-width="2"/>
+  <path d="M150,150 Q170,100 200,150 T250,150" fill="none" stroke="#f6d32d" stroke-width="8" stroke-linecap="round"/>
+  <path d="M160,160 Q180,110 210,160 T260,160" fill="none" stroke="#f6d32d" stroke-width="8" stroke-linecap="round"/>
+  <path d="M140,140 Q160,90 190,140 T240,140" fill="none" stroke="#f6d32d" stroke-width="8" stroke-linecap="round"/>
+  <text x="200" y="280" font-family="serif" font-size="20" fill="#ccc" text-anchor="middle">Authentic Pasta</text>
+</svg>

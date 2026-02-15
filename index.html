@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VIA9 - Authentic Italian Dining</title>
+    <meta name="description"
+        content="Experience the finest Italian cuisine at VIA9. Authentic flavors, elegant atmosphere, and unforgettable dining.">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Lato:wght@300;400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+</head>
+
+<body>
+    <header id="header">
+        <nav>
+            <a href="#home" class="logo-container">
+                <div class="logo">
+                    <img src="assets/logo.jpg" alt="VIA9 Logo">
+                </div>
+            </a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact" class="btn-reserve">Reservations</a></li>
+            </ul>
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="fade-in">Experience Italian Excellence</h1>
+            <p class="fade-in-delay">Authentic flavors. Modern elegance. Welcome to VIA9.</p>
+            <a href="#menu" class="btn-primary fade-in-delay-2">View Menu</a>
+        </div>
+        <!-- Overlay is handled relative to the section now via CSS, cleaner DOM -->
+    </section>
+
+    <section id="about" class="about">
+        <div class="container flow-content">
+            <div class="about-text">
+                <h2>Our Story</h2>
+                <p>Nestled in the heart of the city, VIA9 brings the soul of Italy to your table. Our chefs craft each
+                    dish with passion, using only the finest imported ingredients and time-honored recipes passed down
+                    through generations.</p>
+                <p>Whether you're joining us for a romantic dinner, a family celebration, or a casual glass of wine,
+                    VIA9 promises an unforgettable culinary journey.</p>
+            </div>
+            <div class="about-image">
+                <!-- Icon via CSS -->
+            </div>
+        </div>
+    </section>
+
+    <section id="menu" class="menu">
+        <div class="container">
+            <h2 class="section-title">Menu</h2>
+
+            <!-- Pasta -->
+            <div class="menu-category">
+                <h3 class="menu-category-title">Pasta</h3>
+                <div class="menu-list">
+                    <div class="menu-list-item">
+                        <div class="item-header">
+                            <span class="item-title">Linguine Aglio E Olio Peperoncino</span>
+                            <span class="item-price">1750/-</span>
+                        </div>
+                        <p class="item-desc">Pasta linguine with olive oil, garlic and chilli.</p>
+                    </div>
+                    <div class="menu-list-item">
+                        <div class="item-header">
+                            <span class="item-title">Pesto Penne Genovese</span>
+                            <span class="item-price">1950/-</span>
+                        </div>
+                        <p class="item-desc">Penne pasta with fresh tomato with pine nuts.</p>
+                    </div>
+                    <div class="menu-list-item">
+                        <div class="item-header">
+                            <span class="item-title">Carbonara</span>
+                            <span class="item-price">2400/-</span>
+                        </div>
+                        <p class="item-desc">Creamy egg pasta with bacon.</p>
+                    </div>
+                    <div class="menu-list-item">
+                        <div class="item-header">
+                            <span class="item-title">Chicken Alfredo</span>
+                            <span class="item-price">2350/-</span>
+                        </div>
+                        <p class="item-desc">Chicken and mushroom with white sauce.</p>
+                    </div>
+                    <div class="menu-list-item">
+                        <div class="item-header">
+                            <span class="item-title">Beef/Chicken Lasagne</span>
+                            <span class="item-price">2550/-</span>
+                        </div>
+                        <p class="item-desc">Traditional Italian beef / chicken lasagne.</p>
+                    </div>
+                    <div class="menu-list-item">
+                        <div class="item-header">
+                            <span class="item-title">Seafood Marinara</span>
+                            <span class="item-price">2850/-</span>
+                        </div>
+                        <p class="item-desc">Mixed seafood pasta with fresh clams and shells.</p>
+                    </div>
+                    <div class="menu-list-item">
+                        <div class="item-header">
+                            <span class="item-title">Risotto Alla Parmigiano</span>
+                            <span class="item-price">2750/-</span>
+                        </div>
+                        <p class="item-desc">Italian creamy rice with parmesan cheese with pistachio.</p>
+                    </div>
+                    <div class="menu-list-item">
+                        <div class="item-header">
+                            <span class="item-title">Risotto Frutti Di Mare</span>
+                            <span class="item-price">2900/-</span>
+                        </div>
+                        <p class="item-desc">Creamy seafood Italian rice.</p>
+                    </div>
+                    <div class="menu-list-item">
+                        <div class="item-header">
+                            <span class="item-title">Gnocchi Quatro Formaggi</span>
+                            <span class="item-price">2150/-</span>
+                        </div>
+                        <p class="item-desc">Fresh potato pasta with creamy four cheese.</p>
+                    </div>
+                    <div class="menu-list-item">
+                        <div class="item-header">
+                            <span class="item-title">Ravioli Mushroom</span>
+                            <span class="item-price">2350/-</span>
+                        </div>
+                        <p class="item-desc">Filled mushroom pasta with butter and crispy salvia.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Secondo (Mains) -->
+            <div class="menu-category">
+                <h3 class="menu-category-title">Secondo (Mains)</h3>
+                <div class="menu-list">
+                    <div class="menu-list-item">
+                        <div class="item-header">
+                            <span class="item-title">Pollo Griigliata Con Verdura</span>
+                            <span class="item-price">2700/-</span>
+                        </div>
+                        <p class="item-desc">Grilled chicken with boiled vegetables.</p>
+                    </div>
+                    <div class="menu-list-item">
+                        <div class="item-header">
+                            <span class="item-title">Cottolette Di Pollo</span>
+                            <span class="item-price">2950/-</span>
+                        </div>
+                        <p class="item-desc">Crispy batter fried Italian style chicken with french fries.</p>
+                    </div>
+                    <div class="menu-list-item">
+                        <div class="item-header">
+                            <span class="item-title">Calamari Ripieno</span>
+                            <span class="item-price">3200/-</span>
+                        </div>
+                        <p class="item-desc">Filled squid in Italian style with tomato sauce.</p>
+                    </div>
+                    <div class="menu-list-item">
+                        <div class="item-header">
+                            <span class="item-title">Fritto Misto Con Verdure</span>
+                            <span class="item-price">4350/-</span>
+                        </div>
+                        <p class="item-desc">Deep fried mixed seafood with vegetables.</p>
+                    </div>
+                    <div class="menu-list-item">
+                        <div class="item-header">
+                            <span class="item-title">Barramundi Alla Griglia</span>
+                            <span class="item-price">3700/-</span>
+                        </div>
+                        <p class="item-desc">Grilled barramundi with toasted bread.</p>
+                    </div>
+                    <div class="menu-list-item">
+                        <div class="item-header">
+                            <span class="item-title">Braciola Di Maiale Grigliata</span>
+                            <span class="item-price">3800/-</span>
+                        </div>
+                        <p class="item-desc">Grilled juicy pork with potato wedges.</p>
+                    </div>
+                    <div class="menu-list-item">
+                        <div class="item-header">
+                            <span class="item-title">Filetto Di Manzo</span>
+                            <span class="item-price">5200/-</span>
+                        </div>
+                        <p class="item-desc">Grilled beef fillet with peppercorn sauce.</p>
+                    </div>
+                    <div class="menu-list-item">
+                        <div class="item-header">
+                            <span class="item-title">Bistecca Alla Fiorentina</span>
+                            <span class="item-price">7400/-</span>
+                        </div>
+                        <p class="item-desc">Grilled T bone with roasted potato.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Dolce (Dessert) -->
+            <div class="menu-category">
+                <h3 class="menu-category-title">Dolce (Dessert)</h3>
+                <div class="menu-list">
+                    <div class="menu-list-item">
+                        <div class="item-header">
+                            <span class="item-title">Tiramisu</span>
+                            <span class="item-price">1700/-</span>
+                        </div>
+                        <p class="item-desc">Italian Tiramisu.</p>
+                    </div>
+                    <div class="menu-list-item">
+                        <div class="item-header">
+                            <span class="item-title">Gelato Alla Casa</span>
+                            <span class="item-price">2100/-</span>
+                        </div>
+                        <p class="item-desc">Homemade ice cream.</p>
+                    </div>
+                    <div class="menu-list-item">
+                        <div class="item-header">
+                            <span class="item-title">Cafe Affagato</span>
+                            <span class="item-price">1600/-</span>
+                        </div>
+                        <p class="item-desc">Ice cream with coffee.</p>
+                    </div>
+                    <div class="menu-list-item">
+                        <div class="item-header">
+                            <span class="item-title">Crostata Di Frutta</span>
+                            <span class="item-price">1650/-</span>
+                        </div>
+                        <p class="item-desc">Italian fruit tart.</p>
+                    </div>
+                    <div class="menu-list-item">
+                        <div class="item-header">
+                            <span class="item-title">Tortino Al Cioccolato</span>
+                            <span class="item-price">1550/-</span>
+                        </div>
+                        <p class="item-desc">Molten chocolate cake with vanilla ice cream.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Bevande (Beverages) -->
+            <div class="menu-category">
+                <h3 class="menu-category-title">Bevande Calde (Hot Beverages)</h3>
+                <div class="menu-list">
+                    <div class="menu-list-item">
+                        <div class="item-header">
+                            <span class="item-title">Hot Chocolate</span>
+                            <span class="item-price">950/-</span>
+                        </div>
+                    </div>
+                    <div class="menu-list-item">
+                        <div class="item-header">
+                            <span class="item-title">Cafe Espresso</span>
+                            <span class="item-price">550/-</span>
+                        </div>
+                    </div>
+                    <div class="menu-list-item">
+                        <div class="item-header">
+                            <span class="item-title">Double Espresso</span>
+                            <span class="item-price">650/-</span>
+                        </div>
+                    </div>
+                    <div class="menu-list-item">
+                        <div class="item-header">
+                            <span class="item-title">Cappuccino</span>
+                            <span class="item-price">750/-</span>
+                        </div>
+                    </div>
+                    <div class="menu-list-item">
+                        <div class="item-header">
+                            <span class="item-title">Caffe Americano</span>
+                            <span class="item-price">600/-</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-category">
+                <h3 class="menu-category-title">Bevande Freddo (Cold Beverages)</h3>
+                <div class="menu-list">
+                    <div class="menu-list-item">
+                        <div class="item-header">
+                            <span class="item-title">Lime Juice</span>
+                            <span class="item-price">850/-</span>
+                        </div>
+                    </div>
+                    <div class="menu-list-item">
+                        <div class="item-header">
+                            <span class="item-title">Lime And Mint Mojito</span>
+                            <span class="item-price">1100/-</span>
+                        </div>
+                    </div>
+                    <div class="menu-list-item">
+                        <div class="item-header">
+                            <span class="item-title">Iced Tea Peach</span>
+                            <span class="item-price">950/-</span>
+                        </div>
+                    </div>
+                    <div class="menu-list-item">
+                        <div class="item-header">
+                            <span class="item-title">Gelato Mango Bliss</span>
+                            <span class="item-price">1300/-</span>
+                        </div>
+                    </div>
+                    <div class="menu-list-item">
+                        <div class="item-header">
+                            <span class="item-title">Pino Caldo</span>
+                            <span class="item-price">1400/-</span>
+                        </div>
+                    </div>
+                    <div class="menu-list-item">
+                        <div class="item-header">
+                            <span class="item-title">Chocolate Milkshake</span>
+                            <span class="item-price">1100/-</span>
+                        </div>
+                    </div>
+                    <div class="menu-list-item">
+                        <div class="item-header">
+                            <span class="item-title">Coca Cola</span>
+                            <span class="item-price">350/-</span>
+                        </div>
+                    </div>
+                    <div class="menu-list-item">
+                        <div class="item-header">
+                            <span class="item-title">Sprite</span>
+                            <span class="item-price">350/-</span>
+                        </div>
+                    </div>
+                    <div class="menu-list-item">
+                        <div class="item-header">
+                            <span class="item-title">Soda</span>
+                            <span class="item-price">300/-</span>
+                        </div>
+                    </div>
+                    <div class="menu-list-item">
+                        <div class="item-header">
+                            <span class="item-title">Water</span>
+                            <span class="item-price">450/-</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-footer">
+                <a href="#contact" class="btn-primary">Reserve Your Table</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="reviews" class="reviews">
+        <div class="container">
+            <h2 class="section-title">Guest Reviews</h2>
+            <div class="reviews-grid">
+                <div class="review-card">
+                    <p>"The best Italian food I've had outside of Rome. The atmosphere is stunning."</p>
+                    <div class="stars">★★★★★</div>
+                    <span>- Sarah J.</span>
+                </div>
+                <div class="review-card">
+                    <p>"VIA9 is a hidden gem. The service is impeccable and the wine list is extensive."</p>
+                    <div class="stars">★★★★★</div>
+                    <span>- Michael T.</span>
+                </div>
+                <div class="review-card">
+                    <p>"A truly premium dining experience. Highly recommended for special occasions."</p>
+                    <div class="stars">★★★★★</div>
+                    <span>- Emily R.</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <h2 class="section-title">Our Atmosphere</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="assets/gallery_carbonara.png" alt="Signature Carbonara">
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/gallery_interior.png" alt="Restaurant Interior">
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/gallery_extra2.png" alt="Delicious Dish">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <h2>Visit Us</h2>
+                    <p><i class="fas fa-map-marker-alt"></i> 123 Via Roma, Culinary District</p>
+                    <p><i class="fas fa-phone"></i> (555) 123-4567</p>
+                    <p><i class="fas fa-envelope"></i> reservations@via9.com</p>
+                    <div class="hours">
+                        <h3>Opening Hours</h3>
+                        <p>Mon-Sun: 5pm - 11pm</p>
+                        <p>Happy Hour: 5pm - 7pm</p>
+                    </div>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                <div class="reservation-form">
+                    <h2>Make a Reservation</h2>
+                    <form id="reservation-form" action="https://formsubmit.co/subhashketagoda@gmail.com" method="POST">
+                        <!-- FormSubmit Configuration -->
+                        <input type="hidden" name="_subject" value="New Reservation via VIA9 Website">
+                        <input type="hidden" name="_captcha" value="true">
+                        <input type="hidden" name="_template" value="table">
+
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone" placeholder="Your Phone Number" required>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="date">Date</label>
+                                <input type="date" id="date" name="date" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="time">Time</label>
+                                <input type="time" id="time" name="time" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="guests">Number of Guests</label>
+                            <input type="number" id="guests" name="guests" placeholder="Ex: 2" min="1" required>
+                        </div>
+                        <button type="submit" class="btn-primary">Book Table</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Via9 Restaurant. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
